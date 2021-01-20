@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="start">
+        <h2>Hangman</h2>
+        <button id="startBtn">Play Now</button>
+    </div>
+
+    <div id="play">
+        <div class="word">
+
+        </div>
+
+        <div class="character">
+            <div class="timesWrong"></div>
+            <canvas id="myCanvas", width="500px", height="500px"></canvas>
+        </div>
+
+        <div class="keyboard">
+            <button class="letterBtn">q</button>
+            <button class="letterBtn">w</button>
+            <button class="letterBtn">e</button>
+            <button class="letterBtn">r</button>
+            <button class="letterBtn">t</button>
+            <button class="letterBtn">y</button>
+            <button class="letterBtn">u</button>
+            <button class="letterBtn">i</button>
+            <button class="letterBtn">o</button>
+            <button class="letterBtn">p</button>
+            <button class="letterBtn">a</button>
+            <button class="letterBtn">s</button>
+            <button class="letterBtn">d</button>
+            <button class="letterBtn">f</button>
+            <button class="letterBtn">g</button>
+            <button class="letterBtn">h</button>
+            <button class="letterBtn">j</button>
+            <button class="letterBtn">k</button>
+            <button class="letterBtn">l</button>
+            <button class="letterBtn">z</button>
+            <button class="letterBtn">x</button>
+            <button class="letterBtn">c</button>
+            <button class="letterBtn">v</button>
+            <button class="letterBtn">b</button>
+            <button class="letterBtn">n</button>
+            <button class="letterBtn">m</button>
+        </div>
+    </div>
+
+    <div id="resultWin">
+        <h2>YOU WIN!!!</h2>
+        <h5 class="result">
+
+        </h5>
+        <button class="replayBtn">Replay</button>
+    </div>
+
+    <div id="resultLose">
+        <h2>YOU LOSE!!!</h2>
+        <h5 class="result">
+
+        </h5>
+        <button class="replayBtn">Replay</button>
+    </div>
+    
+
+    <script src="app.js"></script>
+    <script src="canvas.js"></script>
+    <script src="sound.js"></script>
+</body>
+</html>
